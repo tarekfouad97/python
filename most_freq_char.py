@@ -1,4 +1,19 @@
 def most_freq(str1:str):
+    """
+    Find the most frequently occurring character in a string.
+    
+    This function processes the input string to find the character that appears
+    most frequently, ignoring spaces and non-alphabetic characters. The search is case-insensitive.
+    
+    Args:
+        str1 (str): The input string to analyze
+        
+    Returns:
+        None: The function prints the most frequent character and its count
+        
+    Raises:
+        TypeError: If the input string is empty or None
+    """
     if not str1:
         raise TypeError
     chars_list=[]

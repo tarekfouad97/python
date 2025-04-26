@@ -15,6 +15,26 @@ A sorted list of consonants found in order
 """
 
 def consonant_counter(str1:str)-> int:
+    """
+    Count consonants in a given string and provide detailed statistics.
+    
+    This function analyzes the input string to:
+    - Count total number of consonants
+    - Create a dictionary of consonant frequencies
+    - Generate a list of consonants found
+    
+    Args:
+        str1 (str): The input string to analyze
+        
+    Returns:
+        int: The total number of consonants found in the string
+        
+    Note:
+        The function also prints:
+        - Total consonant count
+        - List of consonants found
+        - Dictionary of consonant frequencies
+    """
     if not str1:
         return False
     cons_dict = {}

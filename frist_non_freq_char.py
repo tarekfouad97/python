@@ -1,4 +1,20 @@
 def most_freq(str1:str):
+    """
+    Find the first non-repeating character in a string and its index.
+    
+    This function processes the input string to find the first character that appears
+    exactly once, ignoring spaces and non-alphabetic characters. The search is case-insensitive.
+    
+    Args:
+        str1 (str): The input string to analyze
+        
+    Returns:
+        None: The function prints the first non-repeating character and its index,
+              along with the frequency dictionary of all characters
+        
+    Raises:
+        TypeError: If the input string is empty or None
+    """
     if not str1:
         raise TypeError
     chars_list=[]

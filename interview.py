@@ -1,6 +1,18 @@
-
-
 def swap_count(a:str,b:str) -> int:
+    """
+    Calculate the total number of swaps needed to make two strings equal.
+    
+    This function counts the number of position differences between matching
+    characters in two strings. It assumes that both strings contain the same
+    characters, just in different positions.
+    
+    Args:
+        a (str): First string to compare
+        b (str): Second string to compare
+        
+    Returns:
+        int: Total number of position differences between matching characters
+    """
     total_count = 0
     for item in a:
         for item2 in b:

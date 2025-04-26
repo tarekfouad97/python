@@ -1,5 +1,19 @@
-
 def func_1(list1):
+    """
+    Find common elements between strings in a list.
+    
+    This function takes a list of strings and finds common elements
+    between them, working from the end of the strings towards the beginning.
+    
+    Args:
+        list1 (list): A list of strings to compare
+        
+    Returns:
+        None: The function prints the common elements found in reverse order
+        
+    Note:
+        The function processes strings from the end and collects matching elements
+    """
     count = 0
     lastcount = 0
     result =[]
